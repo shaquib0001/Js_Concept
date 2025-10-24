@@ -1,7 +1,7 @@
 const studentId = 101;
 var studentName = "Shaquib";
  let studentAge = 24;
-
+ let studentCity = "New York";
 
 studentName = "Alex";
 studentAge = 25;
@@ -23,5 +23,5 @@ because of issue in block scope and function scope.
 
 */
 
-console.table({studentId, studentName, studentAge});
+console.table({studentId, studentName, studentAge, studentCity});
 
