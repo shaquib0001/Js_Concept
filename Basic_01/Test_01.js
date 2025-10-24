@@ -3,6 +3,8 @@ var studentName = "Shaquib";
  let studentAge = 24;
  let studentCity = "New York";
 
+ let studentCountry;
+
 studentName = "Alex";
 studentAge = 25;
 // studentId=201;   // Not allowed
@@ -23,5 +25,5 @@ because of issue in block scope and function scope.
 
 */
 
-console.table({studentId, studentName, studentAge, studentCity});
+console.table({studentId, studentName, studentAge, studentCity, studentCountry});
 
